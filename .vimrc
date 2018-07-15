@@ -35,9 +35,6 @@ set undodir=~/.vim/undo//
 set backupdir=~/.vim/backups//
 set directory=~/.vim/swp//
 
-" Set use 256 colors(?)
-set t_Co=256
-
 " vim-plug: Vim plugin manager
 " (see /usr/share/vim-plug/vimrc.sample for more info)
 " ============================
@@ -53,7 +50,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'source-of-plugin'
 " Then call :PlugInstall when running vim to install.
 
-Plug 'dracula/vim'
+Plug 'markvincze/panda-vim'
 
 " Initialize plugin system
 call plug#end()
